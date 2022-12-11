@@ -25,6 +25,7 @@ Para acessar o deploy <a href="https://nukenzie-beige.vercel.app/" target="_blan
  Este projeto foi desenvolvido com as seguintes tecnologias
 - React
 - TypeScript
+- React-router-dom
 - Styled-components
 
 ## 🚀 Executando o projeto localmente
