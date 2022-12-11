@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+#  Nu kenzie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/license/steinerstt/nu-kenzie?style=for-the-badge)
+![Website](https://img.shields.io/website?color=gree&label=Status&style=for-the-badge&up_message=finalizado&url=https://github.com/steinerstt/nu-kenzie)
+<br><br>
 
-## Available Scripts
+![nu-kenzie](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/nukenzie-gif.gif?raw=true)
+> A Nu Kenzie é um gerenciador de finanças permitindo adicionar e remover transações. 
 
-In the project directory, you can run:
+## 🔰 Ao Vivo
+Para acessar o deploy <a href="https://nukenzie-beige.vercel.app/" target="_blank" > Clique Aqui! </a>
 
-### `yarn start`
+## 🍒 Layout
+<a href="https://www.figma.com/file/ZSgGZ3cvMKSVr7RIDG2zCI/M3---Gerenciador-de-Finan%C3%A7as?node-id=0%3A1&t=PUjTu1MpWUKju7nD-0" target="_blank" > Figma </a> fornecido pela Kenzie Academy Brasil™ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Features
+- [x] Landing page
+- [x] Adicionar transação
+- [x] Deletar transação
+- [x] Cálculo total das transações
+- [x] Filtragem por tipo de transação (Entradas/Despesas)
 
-### `yarn test`
+## 🛠️ Tecnologias
+ Este projeto foi desenvolvido com as seguintes tecnologias
+- React
+- TypeScript
+- Styled-components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Executando o projeto localmente
 
-### `yarn build`
+### 💻 Pré-requisitos
+Para rodar o projeto é necessário que você tenha instalado na sua máquina as seguintes ferramentas:
+-  Git
+-  Node.js
+-  VSCode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💿 Rodando
+```bash
+# Clone este repositório através do terminal
+$ git clone git@github.com:steinerstt/nu-kenzie.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acesse a pasta do projeto
+$ cd nu-kenzie
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências do projeto - com yarn OU npm
+$ yarn install
 
-### `yarn eject`
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Rode o projeto - com yarn OU npm 
+$ yarn start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+$ npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📸 Screenshots
 
-## Learn More
+![Landing page](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/home.jpg?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Dashboard sem transações](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/dashboard-no-transactions.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Dashboard com transações](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/dashboard-transactions.jpg?raw=true)
 
-### Code Splitting
+![Dashboard com o filtro de entradas aplicado](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/dashboard-input-transactions.jpg?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Dashboard com o filtro de saidas aplicado](https://github.com/steinerstt/screenshots-projects/blob/main/nukenzie/dashboard-output-transactions.jpg?raw=true)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+## 📄 Licença
+Este projeto está sob a licença do MIT - veja o arquivo [LICENSE](https://github.com/steinerstt/nu-kenzie/blob/main/LICENSE) para detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤ por [Steiner](https://github.com/steinerstt)
